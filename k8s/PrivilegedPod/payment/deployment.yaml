@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payment
-          image: duncanfrance/payment:1.0.0
+          image: duncansnyk/payment:1.0.0
           #imagePullPolicy: Always
           ports:
             - containerPort: 8080
